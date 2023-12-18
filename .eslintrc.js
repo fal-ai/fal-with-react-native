@@ -1,4 +1,10 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: [
+    'standard',
+    'plugin:react/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
+    'prettier',
+  ],
 };
