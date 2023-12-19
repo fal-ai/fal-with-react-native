@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { ApplicationProvider, useTheme } from '@ui-kitten/components';
 import React from 'react';
 import { appTheme } from '~/components/theme';
+import { DrawingScreen } from '~/screens/drawing';
 import { HomeScreen } from '~/screens/home';
 
 const Drawer = createDrawerNavigator();
@@ -46,6 +47,7 @@ function Navigation() {
           drawerActiveTintColor: theme['color-primary-500'],
         }}>
         <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="Drawing" component={DrawingScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

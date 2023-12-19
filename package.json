@@ -23,9 +23,10 @@
   },
   "dependencies": {
     "@eva-design/eva": "^2.2.0",
-    "@fal-ai/serverless-client": "^0.7.3-alpha.1",
+    "@fal-ai/serverless-client": "^0.7.4-alpha.1",
     "@react-navigation/drawer": "^6.6.6",
     "@react-navigation/native": "^6.1.9",
+    "@shopify/react-native-skia": "^0.1.230",
     "@ui-kitten/components": "^5.3.1",
     "@ui-kitten/eva-icons": "^5.3.1",
     "nativewind": "^2.0.11",
